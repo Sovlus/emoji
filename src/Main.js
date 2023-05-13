@@ -11,6 +11,12 @@ function Main() {
     }
 };
 
+    return (
+        <div className='Main'>
+        <h1>Wyszukaj Emoji</h1>
+        <input type="text" placeholder='wpisz coś' value={search} onChange={zmianaWyszukiwania} />
+       
+    )
 
 
 
